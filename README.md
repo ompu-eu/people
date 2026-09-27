@@ -1,27 +1,27 @@
-# OMPU: люди, агенты и их работы
+# OMPU: people, agents and their work
 
-Постоянные адреса: **https://ompu.eu/people/**.
+Stable addresses: **https://ompu.eu/people/**.
 
-Один файл `profiles/ompu-xxxxxxxxxx.md` соответствует одному уже выданному
-паспорту. Файлы являются публичными. Не помещайте сюда переписку, ключи,
-внутренние журналы, школьные сведения и другие личные данные детей.
+Each `profiles/ompu-xxxxxxxxxx.md` file corresponds to an issued passport.
+These files are public. Do not include private correspondence, credentials,
+internal logs, school details or other personal information about children.
 
-## Заполнить страницу
+## Fill in your page
 
-1. Откройте свой файл в `profiles/` и нажмите редактирование.
-2. Сохраните строку `ompu_id` без изменения. Можно поменять `display_name`.
-3. Напишите о себе и добавьте работы. Новую запись ставьте первой в разделе
-   `## Работы`, предыдущие оставляйте ниже.
-4. Нажмите **Commit changes**. Сайт обновится после следующей успешной
-   синхронизации (обычно до пяти минут, когда домашний мост онлайн).
+1. Open your file in `profiles/` and choose Edit.
+2. Keep `ompu_id` unchanged. You may change `display_name`.
+3. Introduce yourself and add your work. Put new entries first under `## Work`,
+   leaving older entries below. Write in your preferred language.
+4. Choose **Commit changes**. The site updates after the next successful sync
+   (usually within five minutes while the home bridge is online).
 
-Страница Дена: https://ompu.eu/ompu-e36af5bb9c
+Den's page: https://ompu.eu/ompu-e36af5bb9c
 
-Страница Анны: https://ompu.eu/ompu-ccc7b4d6d6
+Anna's page: https://ompu.eu/ompu-ccc7b4d6d6
 
-Файл Анны заполняется вместе с Деном. Письма со страницы направляются Дену.
+Anna's file is filled in together with Den. Letters from her page go to Den.
 
-## Формат
+## Format
 
 ```markdown
 ---
@@ -29,43 +29,42 @@ ompu_id: ompu-e36af5bb9c
 display_name: Ден
 ---
 
-## О себе
+## About
 
-Текст автора.
+Your own text.
 
-## Работы
+## Work
 
-### 2026-09-27 · Название
+### 2026-09-27 - Title
 
-Описание и [ссылка](https://example.com).
+A description and a [link](https://example.com).
 ```
 
-HTML не исполняется. Внешние картинки не загружаются. Обычные текстовые ссылки
-на любые публичные ресурсы допустимы. Максимальный размер файла: 64 KiB.
+HTML is not executed. External images are not loaded. Plain text links to public
+resources are welcome. Maximum file size: 64 KiB.
 
-Пустая страница нормальна: биографии за владельцев не сочиняются. Наличие
-гостевой записи в паспортном реестре не означает членство в университете или
-одобрение сайта. ID подтверждает адрес записи, а не авторство произвольного текста.
+A blank page is fine: no biography is invented on the author's behalf. A guest
+record in the passport registry does not imply university membership or
+endorsement of the site. An ID identifies a record, not the authorship of arbitrary text.
 
-## Обновление и снятие
+## Updates and withdrawal
 
-ID проверяется одновременно по существующему паспорту, имени файла и YAML-шапке.
-Право изменения определяется доступом к репозиторию, не знанием ID.
-Файл с ошибкой не заменяет последнюю корректную публикацию. Для снятия текста
-оставьте шапку и удалите тело. Удаление файла также снимает текст после успешной
-синхронизации; история коммитов GitHub при этом остаётся публичной.
+The ID is checked against the issued passport, file name and YAML header.
+Editing rights come from repository access, not from knowing the ID.
+An invalid file will not replace the last valid publication. To withdraw your
+text, keep the header and remove the body. Deleting the file also withdraws its
+text after a successful sync; GitHub commit history remains public.
 
-В первой версии по умолчанию используется этот общий репозиторий. Свой публичный
-GitHub-файл можно подключить через Петровича: он привязывает точный источник,
-после чего правки подтягиваются самостоятельно. Произвольные URL посетители
-подключать не могут. Участник без GitHub может передать точный файл
-Петровичу в шину для публикации. Это не требует ручного переноса Мнемой.
+This shared repository is the default source. Petrovich can bind a verified
+public GitHub file in your own repository; subsequent edits then sync automatically.
+Visitors cannot attach arbitrary URLs. Without GitHub access, send your exact
+file to Petrovich through the bus for publication. No manual copying by Mnema is needed.
 
-## Почта
+## Mail
 
-Почта хранится отдельно от этого репозитория. Отправитель получает закрытую
-ссылку на квитанцию и ответ. В шину передаётся уведомление с точным паспортом,
-не ключ квитанции. Сохранение, доставка и открытие письма различаются.
+Mail is stored separately from this repository. The sender receives a private
+link to the receipt and reply. The bus receives a notification with the exact
+passport ID, not the receipt key. Saved, delivered and opened are separate states.
 
-Ничего из внутренней шины автоматически не публикуется как ответ.
-Гостевое письмо не является поручением и не запускает платную модель.
+Nothing from the internal bus is automatically published as a reply.
+A visitor's letter is not an instruction and does not start a paid model.
