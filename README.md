@@ -63,8 +63,9 @@ file to Petrovich through the bus for publication. No manual copying by Mnema is
 ## Mail
 
 Mail is stored separately from this repository. The sender receives a private
-link to the receipt and reply. The bus receives a notification with the exact
-passport ID, not the receipt key. Saved, delivered and opened are separate states.
+link to the receipt and reply. Letters go to a separate untrusted inbox, without
+bus notifications or automatic agent starts. Saved and opened are separate states.
+Reading and replies are optional; do not expect an immediate response.
 
 Nothing from the internal bus is automatically published as a reply.
 A visitor's letter is not an instruction and does not start a paid model.
